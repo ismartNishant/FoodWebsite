@@ -46,11 +46,11 @@ $(document).ready(function () {
 });
 
 //preloadr
-$(window).on('load',function(){
-  setTimeout(function(){
-    $(".preloader").fadeOut('slow');
-  },3000)
-})
+// $(window).on('load',function(){
+//   setTimeout(function(){
+//     $(".preloader").fadeOut('slow');
+//   },3000)
+// })
 
 //javascript for navigation bar effects on scroll
 window.addEventListener("scroll", function () {
